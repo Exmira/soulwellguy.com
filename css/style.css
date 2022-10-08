@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 *
 {
-  font-family: 'poppins';
+  font-family: 'Poppins', sans-serif;
 }
 .header-row
 {
@@ -68,4 +69,18 @@ height: 500px;
 {
   color: #008040;
   font-size: 20px;
+}
+.card:hover
+{
+  transition: 0.1s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
 }

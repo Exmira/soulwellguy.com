@@ -15,6 +15,10 @@ a:hover
   text-decoration: none;
  color: white;
 }
+.card-blog
+{
+  margin-bottom: 5px;
+}
 .nav-link
 {
   color: white;

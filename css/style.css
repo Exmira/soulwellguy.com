@@ -18,14 +18,13 @@ a
 a:hover
 {
   text-decoration: none;
-  opacity: 0.8;
-  color: white;
+ color: white;
 }
-.nav-soul-link
+.nav-link
 {
-
+  color: white;
   font-size: 25px;
-margin: .5%;
+  margin: 5px;
   background-color: rgba(238, 238, 238, 0.358);
   padding: 10px;
   border-radius: 6px;
@@ -33,6 +32,12 @@ margin: .5%;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+  display: inline-block;
+}
+.nav-link:hover
+{
+  opacity: 0.8;
+  color: white;
 }
 .next-upload
 {
@@ -43,8 +48,6 @@ margin: .5%;
 }
 .next-upload:hover
 {
-  padding: 20px;
-  margin-top: 20px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 textarea

@@ -9,5 +9,5 @@ setInterval(function time(){
   if((sec + '').length == 1){
         sec = '0' + sec;
   }
-  jQuery('#upload-counter').html('New Soul well Guy Youtube Upload in '+hours+':'+min+':'+sec)
+  jQuery('#upload-counter').html('Most Recent Comment '+hours+':'+min+':'+sec)
 }, 1000);
